@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umberto Di Puorto - CV</title>
+    <style>
+        /* Configurazione Pagina A4 e Margini */
+        @page {
+            size: A4;
+            margin: 15px; 
+        }
+
+        body {
+            /* Font stack estremamente "safe" per PDF: Helvetica/Arial garantiscono glifi verticali costanti */
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 10.5pt;
+            line-height: 1.45;
+            color: #1a1a1a;
+            margin: 0;
+            padding: 15px;
+            background-color: #fff;
+
+            /* OTTIMIZZAZIONI CRITICHE PER PDF CHROME */
+            /* Forza il rendering a non tentare smoothing subpixel che causa il "grassetto" sulle i/l */
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+
+            /* Reset del rendering per evitare arrotondamenti imprecisi dei vettori */
+            text-rendering: optimizeLegibility;
+
+            /* Evitiamo letter-spacing personalizzato che può causare jittering nel PDF */
+            letter-spacing: normal;
+            font-weight: normal;
+        }
+
+        /* Container principale */
+        .cv-wrapper {
+            width: 100%;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        /* Header con immagine a DESTRA e avvolgimento testo */
+        .header-section {
+            display: block;
+            margin-bottom: 25px;
+            overflow: hidden; 
+        }
+
+        .profile-photo {
+            float: right; 
+            width: 120px;
+            height: 145px;
+            margin-left: 20px; 
+            margin-bottom: 10px;
+            background-color: #f9f9f9;
+            border: 1px solid #dcdcdc;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .profile-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        h1 {
+            font-size: 26pt;
+            margin: 0;
+            line-height: 1.1;
+            color: #000;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .professional-title {
+            font-size: 12pt;
+            margin: 6px 0 12px 0;
+            font-style: italic;
+            color: #444;
+            font-weight: 700;
+        }
+
+        .contact-info {
+            font-size: 9.5pt;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        .contact-info div {
+            margin-bottom: 1px;
+        }
+
+        /* Sezioni Documento */
+        .section {
+            margin-bottom: 20px;
+            clear: both;
+            page-break-inside: avoid;
+        }
+
+        h2 {
+            font-size: 13.5pt;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #222;
+            padding-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #000;
+            font-weight: 700;
+        }
+
+        h3 {
+            font-size: 11.5pt;
+            margin: 12px 0 3px 0;
+            color: #111;
+            font-weight: 700;
+        }
+
+        .meta-data {
+            font-size: 10pt;
+            color: #444;
+            font-weight: 700;
+            margin-bottom: 2px;
+        }
+
+        p {
+            margin: 8px 0;
+        }
+
+        ul {
+            margin: 6px 0 8px 20px;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 4px;
+        }
+
+        /* Tag Tecnologie */
+        .tech-tags {
+            margin-top: 8px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .tag {
+            font-size: 9pt;
+            color: #222;
+            background: #f4f6f8;
+            padding: 2px 9px;
+            border-radius: 3px;
+            border: 1px solid #d1d5db;
+            font-weight: 700;
+        }
+
+        /* Footer e Privacy */
+        .gdpr-footer {
+            margin-top: 35px;
+            font-size: 8.5pt;
+            color: #666;
+            border-top: 1px solid #eee;
+            padding-top: 15px;
+            font-style: italic;
+            line-height: 1.5;
+        }
+
+        /* Ottimizzazione Stampa */
+        @media print {
+            body { 
+                padding: 15px; 
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+                /* Rimuoviamo ogni smoothing forzato durante la stampa fisica/digitale */
+                -webkit-font-smoothing: grayscale;
+            }
+            .tag { 
+                background-color: #f4f6f8 !important; 
+                border: 1px solid #d1d5db !important;
+            }
+            .section { page-break-inside: auto; }
+            .header-section { page-break-inside: avoid; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="cv-wrapper">
+    <!-- Testata -->
+    <header class="header-section">
+        <div class="profile-photo">
+            <img src="https://www.umbertodipuorto.it/assets/images/foto-cv.png" alt="Foto Profilo Umberto Di Puorto" onerror="this.style.display='none'; this.parentElement.style.backgroundColor='#eee';">
+        </div>
+        
+        <h1>Umberto Di Puorto</h1>
+        <div class="professional-title">Sviluppatore Full Stack &amp; Consulente IT — Freelance</div>
+        
+        <div class="contact-info">
+            <div><strong>Email:</strong> dipuortoumberto@gmail.com</div>
+            <div><strong>Telefono:</strong> +39 340 946 5792</div>
+            <div><strong>Sede:</strong> Pomezia (Roma), Italia</div>
+            <div><strong>P.IVA:</strong> 17414481006</div>
+            <div><strong>Web:</strong> umbertodipuorto.it</div>
+            <div><strong>LinkedIn:</strong> linkedin.com/in/umberto-di-puorto</div>
+        </div>
+    </header>
+
+    <!-- Profilo Professionale -->
+    <section class="section">
+        <h2>Profilo Professionale</h2>
+        <p>
+            Professionista IT con oltre dieci anni di esperienza nel settore ICT, specializzato nello sviluppo
+            di soluzioni software enterprise e applicazioni web ad alte prestazioni. 
+            Opero con successo in contesti mission-critical, curando l'intero ciclo di vita del software: 
+            dalla progettazione dell'architettura alla manutenzione evolutiva e all'ottimizzazione delle performance.
+        </p>
+    </section>
+
+    <!-- Competenze Tecniche -->
+    <section class="section">
+        <h2>Competenze Tecniche</h2>
+        <p><strong>Frontend Development:</strong> Angular 19+ (NgRx), React 19, TypeScript, JavaScript ES6+, HTML5, CSS3, SCSS, Tailwind CSS, Bootstrap 5, RxJS, Webpack, Vite</p>
+        <p><strong>Backend Development:</strong> Java 8/11/17/21, Spring Boot, Spring MVC, Spring Security, Web Services (SOAP), SOAP UI, Node.js, Express.js, REST API, Maven, Gradle, Hibernate, JPA</p>
+        <p><strong>Database &amp; Storage:</strong> PostgreSQL, MySQL, Oracle, MongoDB</p>
+        <p><strong>DevOps &amp; Infrastructure:</strong> Git, GitLab CI/CD, Jenkins, Docker, Kubernetes, Linux, Bash scripting, Maven, npm</p>
+        <p><strong>Security Architecture:</strong> OAuth 2.0, JWT, Spring Security</p>
+        <p><strong>Firma Digitale &amp; PKI:</strong> Firma Digitale, Smart Card, Certificati X.509, eIDAS, PKCS#11</p>
+        <p><strong>Metodologie &amp; Soft Skills:</strong> Agile, Scrum, Code Review, Mentoring, Problem Solving</p>
+    </section>
+
+    <!-- Esperienza Professionale -->
+    <section class="section">
+        <h2>Esperienza Professionale</h2>
+
+        <h3>Consulente Java Senior Freelance — Aruba S.p.A. (Experis)</h3>
+        <div class="meta-data">Cliente: Banca d'Italia</div>
+        <div class="meta-data">Modalità: Full Remote</div>
+        <div class="meta-data">Periodo: Gen 2024 – Presente</div>
+        <ul>
+            <li>Responsabile tecnico per progetti Java enterprise ad alta criticità presso Banca d'Italia.</li>
+            <li>Sviluppo ed evoluzione della piattaforma ArubaSign (Java 8–21, Angular 16–19, Spring Boot).</li>
+            <li>Integrazione di Web Services Java (SOAP) e utilizzo di SOAP UI per il testing e la validazione di interfacce enterprise.</li>
+            <li>Integrazione di sistemi PKI complessi e gestione avanzata dei formati di firma (CAdES, PAdES, XAdES).</li>
+            <li>Attività di mentoring tecnico e code review per il mantenimento di standard qualitativi elevati.</li>
+        </ul>
+        <div class="tech-tags">
+            <span class="tag">Java 21</span><span class="tag">Spring Boot</span><span class="tag">Angular 19</span><span class="tag">SOAP</span><span class="tag">SOAP UI</span><span class="tag">PKI</span><span class="tag">REST API</span>
+        </div>
+
+        <h3>Full Stack Developer — ReActive | Gruppo AlmavivA</h3>
+        <div class="meta-data">Cliente: Ministero dell'Economia e delle Finanze</div>
+        <div class="meta-data">Modalità: Full Remote</div>
+        <div class="meta-data">Periodo: Set 2022 – Gen 2024</div>
+        <ul>
+            <li>Sviluppatore Full Stack Java 8 per i portali di gestione debito pubblico "GEDI Debito Centrale" e "Locale".</li>
+            <li>Gestione della manutenzione evolutiva e correttiva su architetture Java 8 enterprise mission-critical.</li>
+            <li>Tutoraggio e supervisione tecnica di risorse junior all'interno del team di sviluppo.</li>
+        </ul>
+        <div class="tech-tags">
+            <span class="tag">Java 8</span><span class="tag">Spring MVC</span><span class="tag">Angular</span><span class="tag">Oracle</span><span class="tag">Jenkins</span>
+        </div>
+
+        <h3>Full Stack Developer — Kirey Group</h3>
+        <div class="meta-data">Cliente: UniCredit, Intesa San Paolo</div>
+        <div class="meta-data">Modalità: Full Remote</div>
+        <div class="meta-data">Periodo: Ott 2021 – Ago 2022</div>
+        <ul>
+            <li>Ottimizzazione delle pipeline CI/CD e dei processi DevOps in ambito banking.</li>
+            <li>Sviluppo di applicazioni web per il monitoraggio e l'analisi dei flussi di sistema proattivi.</li>
+            <li>Implementazione di test unitari e procedure rigorose di quality assurance.</li>
+        </ul>
+        <div class="tech-tags">
+            <span class="tag">Java</span><span class="tag">Angular</span><span class="tag">Jenkins</span><span class="tag">Groovy</span><span class="tag">CI/CD</span>
+        </div>
+
+        <h3>Full Stack Developer — Rpctech</h3>
+        <div class="meta-data">Cliente: INPS, Enel X, Postel</div>
+        <div class="meta-data">Modalità: Full Remote</div>
+        <div class="meta-data">Periodo: Set 2020 – Ott 2021</div>
+        <ul>
+            <li>Sviluppo di funzionalità su architetture a microservizi e Single Page Applications.</li>
+            <li>Manutenzione evolutiva di sistemi complessi integrati con servizi della Pubblica Amministrazione.</li>
+        </ul>
+
+        <h3>Full Stack Developer — RESI Informatica</h3>
+        <div class="meta-data">Cliente: Ministero della Difesa</div>
+        <div class="meta-data">Modalità: In sede</div>
+        <div class="meta-data">Periodo: Nov 2018 – Set 2020</div>
+        <ul>
+            <li>Debugging e manutenzione del portale NATO SIAC.</li>
+            <li>Sviluppo piattaforma Gemini per il monitoraggio di reti e servizi di telecomunicazione.</li>
+        </ul>
+
+        <h3>Stagista - Sviluppatore RPA — Everis (NTT Data)</h3>
+        <div class="meta-data">Cliente: WINDTRE Italia</div>
+        <div class="meta-data">Periodo: Lug 2018 – Nov 2018</div>
+        <ul>
+            <li>Sviluppo processi di automazione RPA tramite Blue Prism.</li>
+        </ul>
+
+        <h3>Freelance Web Developer</h3>
+        <div class="meta-data">Periodo: 2012 – 2015</div>
+        <p>Sviluppo applicazioni web e siti personalizzati per privati e piccole imprese.</p>
+    </section>
+
+    <!-- Progetti Personali -->
+    <section class="section">
+        <h2>Progetti Personali</h2>
+
+        <h3>Founder — Folder2Text</h3>
+        <div class="meta-data">Periodo: 2026 – In corso | In arrivo su Microsoft Store</div>
+        <ul>
+            <li>Applicazione desktop per l'estrazione e centralizzazione di codice e documentazione da intere directory.</li>
+            <li>Ottimizzata per fornire contesti complessi a modelli LLM (AI Context management).</li>
+            <li>Gestione automatica dei limiti di token e funzionalità avanzate di filtraggio estensioni.</li>
+        </ul>
+        <div class="tech-tags">
+            <span class="tag">C#</span><span class="tag">.NET</span><span class="tag">WPF</span><span class="tag">Windows SDK</span>
+        </div>
+
+        <h3>Founder — ClearCV</h3>
+        <div class="meta-data">Periodo: 2026 – In corso | https://clearcvapp.com</div>
+        <ul>
+            <li>Sviluppo di una piattaforma SaaS per la creazione assistita da AI di CV professionali.</li>
+            <li>Gestione multilingua (23 lingue), sistema di referral e export multiformato.</li>
+            <li>Implementazione di un modello freemium con integrazione pagamenti tramite Stripe.</li>
+        </ul>
+        <div class="tech-tags">
+            <span class="tag">React 19</span><span class="tag">TypeScript</span><span class="tag">Vite</span><span class="tag">TailwindCSS</span><span class="tag">Supabase</span>
+        </div>
+    </section>
+
+    <!-- Formazione -->
+    <section class="section">
+        <h2>Formazione</h2>
+        <p><strong>Corso di specializzazione Java EE</strong> — Sincrono S.R.L. (05/2018 – 06/2018)</p>
+        <p><strong>Diploma di Geometra</strong> — Istituto Tecnico “Leon Battista Alberti”, Roma (2006–2011)</p>
+    </section>
+
+    <!-- Informativa GDPR -->
+    <footer class="gdpr-footer">
+        Autorizzo il trattamento dei miei dati personali presenti nel curriculum vitae ai sensi dell'art. 13 del GDPR
+        (Regolamento UE 2016/679) ai fini della ricerca e selezione del personale.
+    </footer>
+</div>
+
+</body>
+</html>
