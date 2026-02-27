@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umberto Di Puorto - Resume</title>
+    <style>
+        /* Page A4 Configuration and Margins */
+        @page {
+            size: A4;
+            margin: 15px;
+        }
+
+        body {
+            /* Extremely "safe" font stack for PDF: Helvetica/Arial ensure consistent vertical glyphs */
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 10.5pt;
+            line-height: 1.45;
+            color: #1a1a1a;
+            margin: 0;
+            padding: 15px;
+            background-color: #fff;
+
+            /* CRITICAL OPTIMIZATIONS FOR CHROME PDF */
+            /* Force rendering to not attempt subpixel smoothing that causes "bold" on i/l */
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+
+            /* Rendering reset to avoid imprecise vector rounding */
+            text-rendering: optimizeLegibility;
+
+            /* Avoid custom letter-spacing that can cause jittering in PDF */
+            letter-spacing: normal;
+            font-weight: normal;
+        }
+
+        /* Main Container */
+        .cv-wrapper {
+            width: 100%;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        /* Header with image on RIGHT and text wrapping */
+        .header-section {
+            display: block;
+            margin-bottom: 25px;
+            overflow: hidden;
+        }
+
+        .profile-photo {
+            float: right;
+            width: 140px;
+            height: 140px;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            background-color: #f9f9f9;
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            display: block;
+        }
+
+        h1 {
+            font-size: 26pt;
+            margin: 0;
+            line-height: 1.1;
+            color: #000;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .professional-title {
+            font-size: 12pt;
+            margin: 6px 0 12px 0;
+            font-style: italic;
+            color: #444;
+            font-weight: 700;
+        }
+
+        .contact-info {
+            font-size: 9.5pt;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        .contact-info div {
+            margin-bottom: 1px;
+        }
+
+        /* Document Sections */
+        .section {
+            margin-bottom: 20px;
+            clear: both;
+            page-break-inside: avoid;
+        }
+
+        h2 {
+            font-size: 13.5pt;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #222;
+            padding-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #000;
+            font-weight: 700;
+        }
+
+        h3 {
+            font-size: 11.5pt;
+            margin: 12px 0 3px 0;
+            margin-top: 20px;
+            color: #111;
+            font-weight: 700;
+        }
+
+        h3:first-of-type {
+            margin-top: 12px;
+        }
+
+        .meta-data {
+            font-size: 10pt;
+            color: #444;
+            font-weight: 700;
+            margin-bottom: 2px;
+        }
+
+        p {
+            margin: 8px 0;
+        }
+
+        ul {
+            margin: 6px 0 8px 20px;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 4px;
+        }
+
+        /* Technology Tags */
+        .tech-tags {
+            margin-top: 8px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .tag {
+            font-size: 9pt;
+            color: #222;
+            background: #f4f6f8;
+            padding: 2px 9px;
+            border-radius: 3px;
+            border: 1px solid #d1d5db;
+            font-weight: 700;
+        }
+
+        /* Footer and Privacy */
+        .gdpr-footer {
+            margin-top: 35px;
+            font-size: 8.5pt;
+            color: #666;
+            border-top: 1px solid #eee;
+            padding-top: 15px;
+            font-style: italic;
+            line-height: 1.5;
+        }
+
+        /* Print Optimization */
+        @media print {
+            body {
+                padding: 15px;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+                /* Remove any forced smoothing during physical/digital printing */
+                -webkit-font-smoothing: grayscale;
+            }
+            .tag {
+                background-color: #f4f6f8 !important;
+                border: 1px solid #d1d5db !important;
+            }
+            .section { page-break-inside: auto; }
+            .header-section { page-break-inside: avoid; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="cv-wrapper">
+    <!-- Header -->
+    <header class="header-section">
+        <div class="profile-photo">
+            <img src="../cv old/foto-cv-tonda.png" alt="Umberto Di Puorto Profile Photo" onerror="this.style.display='none'; this.parentElement.style.backgroundColor='#eee';">
+        </div>
+
+        <h1>Umberto Di Puorto</h1>
+        <div class="professional-title">Full Stack Developer &amp; IT Consultant — Freelance</div>
+
+        <div class="contact-info">
+            <div><strong>Email:</strong> dipuortoumberto@gmail.com</div>
+            <div><strong>Location:</strong> Via Gran Bretagna 53, Torvaianica, Pomezia (Rome), Italy</div>
+            <div><strong>VAT Number:</strong> 17414481006</div>
+            <div><strong>Website:</strong> umbertodipuorto.it</div>
+            <div><strong>LinkedIn:</strong> linkedin.com/in/umberto-di-puorto</div>
+        </div>
+    </header>
+
+    <!-- Professional Profile -->
+    <section class="section">
+        <h2>Professional Profile</h2>
+
+        <p>
+            🎯 <strong>Senior Full Stack Developer ( B2B Freelance Consultant )</strong><br>Java · Spring Boot · Angular<br>
+        </p>
+
+        <p>
+            I help companies and system integrators develop, maintain, and modernize
+            complex web and enterprise applications, delivering solid and
+            production-ready solutions with strong focus on code quality,
+            security, and long-term maintainability.
+        </p>
+
+        <p>
+            I have over 10 years of experience on mission-critical projects in
+            banking, public administration, and large enterprises. I operate exclusively
+            as an external senior consultant.
+        </p>
+
+        <p>
+            <strong>🔧 How I can support you</strong><br>
+            • End-to-end full stack development (frontend, backend, integrations, database)<br>
+            • Legacy system modernization and technical debt reduction<br>
+            • Design and implementation of secure and scalable REST APIs<br>
+            • Digital signature projects, PKI, X.509 certificates, eIDAS<br>
+            • Targeted interventions on specific tasks, technical backlogs, or production issues
+        </p>
+    </section>
+
+    <!-- Technical Skills -->
+    <section class="section">
+        <h2>Technical Skills</h2>
+        <p><strong>Frontend Development:</strong> Angular 19+, React 19, TypeScript, JavaScript ES6+, HTML5, CSS3, SCSS, Tailwind CSS, Bootstrap 5, RxJS, Webpack, Vite</p>
+        <p><strong>Backend Development:</strong> Java 7/8/11/17/21, Spring Boot, Spring MVC, Spring Security, Web Services (SOAP), SOAP UI, Node.js, Express.js, REST API, Maven, Gradle, Hibernate, JPA</p>
+        <p><strong>Database &amp; Storage:</strong> PostgreSQL, MySQL, Oracle, MongoDB, SQLite</p>
+        <p><strong>DevOps &amp; Infrastructure:</strong> Git, GitLab CI/CD, Jenkins, Docker, Kubernetes, Linux, Bash scripting, Maven, npm, Nexus Repository Manager, WiX Toolset</p>
+        <p><strong>Security &amp; Authentication:</strong> OAuth 2.0, JWT, Spring Security, LDAP/LDAPS, CVE Analysis, Vulnerability Assessment</p>
+        <p><strong>Digital Signature &amp; PKI:</strong> Digital Signature, Smart Card, X.509 Certificates, eIDAS TSL, PKCS#11, PAdES/CAdES/XAdES, OCSP/CRL, NexU, Yubikey, Bit4Id Middleware</p>
+        <p><strong>Desktop &amp; Native Development:</strong> Electron, C/C++ Integration, Windows Installer (WiX), Cross-platform Development</p>
+        <p><strong>Methodologies &amp; Soft Skills:</strong> Agile, Scrum, Code Review, Mentoring, Problem Solving, Technical Documentation, QA Processes</p>
+    </section>
+
+    <!-- Professional Experience -->
+    <section class="section">
+        <h2>Professional Experience</h2>
+
+        <h3>Senior Java Freelance Consultant — Aruba S.p.A. (via Experis)</h3>
+        <div class="meta-data">Client: Bank of Italy</div>
+        <div class="meta-data">Mode: Remote</div>
+        <div class="meta-data">Period: Sep 2024 – Feb 2026</div>
+        <ul>
+            <li><strong>Java Enterprise Projects Manager</strong>: Complete management of Java projects for banking applications with digital signature and X.509/eIDAS certificates:
+                <ul style="margin-top: 5px; margin-bottom: 5px;">
+                    <li>bdife-web (Banking Digital Identity Frontend)</li>
+                    <li>pki-cruscotto-web (PKI Dashboard)</li>
+                    <li>portaledeleghe-web and portaledeleghemail-web (Delegation Portals)</li>
+                    <li>pkititolari-dss-web (NexU Digital Signature Service)</li>
+                    <li>esecurityweb-core and secretstoreutils-core (Core Libraries)</li>
+                    <li>portaledeleghe-conf and portaledeleghemail-conf (Configuration Modules)</li>
+                </ul>
+            </li>
+            <li><strong>Team Leader ArubaSign 25 Desktop</strong>: Lead custom ArubaSign 25 version for Bank of Italy
+                <ul style="margin-top: 5px; margin-bottom: 5px;">
+                    <li>Multi-environment build and release with GitLab CI/CD and Jenkins</li>
+                    <li>Integration of C++ native libraries PKCS#11 for smartcards and hardware tokens</li>
+                    <li>Automated startup, build, and deployment via Jenkins pipelines</li>
+                    <li>Integration tools OfficeTool and verify_otp for Office document signing</li>
+                    <li>Installer with Bit4Id middleware for Yubikey support</li>
+                    <li>Complete refactoring from LDAP to LDAPS as requested by client</li>
+                </ul>
+            </li>
+            <li><strong>ArubaKey Project</strong>: Auto-update system modernization
+                <ul style="margin-top: 5px; margin-bottom: 5px;">
+                    <li>Development of ArubaKeyLauncher with advanced update management</li>
+                    <li>Cross-platform compatibility (Windows, macOS, Linux)</li>
+                    <li>Legacy system replacement with modern and resilient architecture</li>
+                </ul>
+            </li>
+            <li><strong>Packaging &amp; CI/CD</strong>:
+                <ul style="margin-top: 5px; margin-bottom: 5px;">
+                    <li>Installer creation with WiX Toolset for enterprise deployment</li>
+                    <li>Jenkins pipeline management for multi-environment build and deployment</li>
+                    <li>Release control and management with quality verification</li>
+                    <li>Verifications and tests completed without issues, zero returns from QA</li>
+                </ul>
+            </li>
+            <li><strong>Infrastructure and Project Management</strong>:
+                <ul style="margin-top: 5px; margin-bottom: 5px;">
+                    <li>Over 16 Maven projects with differentiated JDK (Java 7-17)</li>
+                    <li>Nexus repository management for artifacts and dependencies</li>
+                    <li>Critical cross-repository bug analysis with advanced Git analysis</li>
+                    <li>Library updates CAPI, pdfbox, jQuery for security and performance</li>
+                    <li>Complete migration from Dimensions CM to Git for version control</li>
+                </ul>
+            </li>
+            <li><strong>Controls and Quality Assurance</strong>:
+                <ul style="margin-top: 5px; margin-bottom: 5px;">
+                    <li>Complete verifications on ArubaSign, BdIFE, DSS, NexU, ARSProvisioner</li>
+                    <li>Software version control, rollback, session management</li>
+                    <li>Certificate warnings and validation chain verification</li>
+                    <li>PAdES/XAdES digital signature checks compliant with eIDAS regulation</li>
+                    <li>LDAPS endpoint and LDAP client verification for secure authentication</li>
+                    <li>Vulnerability analysis (CVE, jsessionid exposure, VPM security)</li>
+                    <li>IPA job restoration for MySQL (Aruba) and Oracle (Bank of Italy) compatibility</li>
+                    <li>Certificate revocation verification towards OCSP/LDAP</li>
+                </ul>
+            </li>
+            <li><strong>Documentation and Processes</strong>:
+                <ul style="margin-top: 5px; margin-bottom: 5px;">
+                    <li>Reorganization of existing documentation and production of new technical documentation</li>
+                    <li>Aruba Git pipeline review and DevOps guidelines definition</li>
+                    <li>Release checks and direct technical support to Bank of Italy client</li>
+                    <li>All activities tested and verified before production commit, zero returns from QA</li>
+                </ul>
+            </li>
+        </ul>
+        <div class="tech-tags">
+            <span class="tag">Java 7-17</span><span class="tag">Spring Boot</span><span class="tag">Maven</span><span class="tag">JPA</span><span class="tag">Angular</span><span class="tag">TypeScript</span><span class="tag">Electron</span><span class="tag">PKI</span><span class="tag">X.509</span><span class="tag">eIDAS TSL</span><span class="tag">PAdES/CAdES/XAdES</span><span class="tag">OCSP/CRL</span><span class="tag">LDAP/LDAPS</span><span class="tag">PKCS#11</span><span class="tag">GitLab CI/CD</span><span class="tag">Jenkins</span><span class="tag">WiX Toolset</span><span class="tag">Git</span><span class="tag">Jira</span><span class="tag">IntelliJ IDEA</span><span class="tag">Nexus</span><span class="tag">MySQL</span><span class="tag">Oracle</span><span class="tag">SQLite</span><span class="tag">PostgreSQL</span>
+        </div>
+
+        <h3>Full Stack Developer — ReActive | AlmavivA Group</h3>
+        <div class="meta-data">Client: Ministry of Economy and Finance</div>
+        <div class="meta-data">Mode: Rome (Remote)</div>
+        <div class="meta-data">Period: Sep 2022 – Jan 2024</div>
+        <ul>
+            <li><strong>MEF Client Management</strong>: Full Stack Java 8 Developer for public debt management web portals "GEDI Central Debt" and "GEDI Local Debt"</li>
+            <li><strong>Web Portal Development and Maintenance</strong>: Implementation of updates and modifications for mission-critical applications for the Ministry of Economy and Finance</li>
+            <li><strong>Junior Resources Supervision</strong>: Junior team tutoring and mentoring, code review, best practices, technical skills growth</li>
+            <li><strong>Technology Stack</strong>: Java 8, Spring Boot, Spring Data JPA, JSP, modern frontend with enterprise frameworks</li>
+        </ul>
+        <div class="tech-tags">
+            <span class="tag">Java 8</span><span class="tag">Spring Boot</span><span class="tag">Spring Data JPA</span><span class="tag">Spring MVC</span><span class="tag">JSP</span><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">SQL</span><span class="tag">Git</span><span class="tag">Maven</span>
+        </div>
+
+        <h3>Full Stack Developer — Kirey Group</h3>
+        <div class="meta-data">Client: UniCredit, Intesa San Paolo</div>
+        <div class="meta-data">Mode: Rome (Remote)</div>
+        <div class="meta-data">Period: Oct 2021 – Aug 2022</div>
+        <ul>
+            <li><strong>Banking Institutions Consulting</strong>: Consultant for UniCredit and Intesa San Paolo banks, DevOps process updates and modifications and monitoring applications</li>
+            <li><strong>UniCredit DevOps Processes</strong>: CI/CD pipeline updates and modifications, deployment automation, Jenkins configuration with Groovy scripting</li>
+            <li><strong>Intesa San Paolo Monitoring Applications</strong>: Development of banking system monitoring web applications with Java 8 and Angular 2+ stack</li>
+            <li><strong>Testing and Quality</strong>: Implementation of unit tests with JUnit, test automation, quality assurance on critical systems</li>
+        </ul>
+        <div class="tech-tags">
+            <span class="tag">Java 8</span><span class="tag">Spring Framework</span><span class="tag">Angular 2+</span><span class="tag">TypeScript</span><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">Jenkins</span><span class="tag">Groovy</span><span class="tag">CI/CD</span><span class="tag">JUnit</span><span class="tag">Git</span><span class="tag">Maven</span>
+        </div>
+
+        <h3>Full Stack Developer — Rpctech</h3>
+        <div class="meta-data">Client: INPS, Enel X, Postel (Italian Post)</div>
+        <div class="meta-data">Mode: Rome (Remote)</div>
+        <div class="meta-data">Period: Sep 2020 – Oct 2021</div>
+        <ul>
+            <li><strong>Engineering and NTT Data Consulting</strong>: External consultant for Engineering and NTT Data, INPS and Enel X feature development, Postel project maintenance</li>
+            <li><strong>INPS and Enel X Feature Development</strong>: Implementation of new features for public entity and utility web applications, Java 8 and Angular 2+ stack</li>
+            <li><strong>Postel Projects Maintenance</strong>: Bug fixing and evolutionary maintenance of Italian Post projects, legacy system management and modernization</li>
+            <li><strong>REST and SPA Architecture</strong>: RESTful API development, Angular Single Page Applications, frontend-backend integration with Spring Boot</li>
+        </ul>
+        <div class="tech-tags">
+            <span class="tag">Java 8</span><span class="tag">Spring Boot</span><span class="tag">Spring MVC</span><span class="tag">Spring Data JPA</span><span class="tag">REST API</span><span class="tag">Angular 2+</span><span class="tag">TypeScript</span><span class="tag">JavaScript</span><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">SCSS</span><span class="tag">SQL</span><span class="tag">Git</span><span class="tag">Maven</span><span class="tag">npm</span>
+        </div>
+
+        <h3>Full Stack Developer — RESI Informatica</h3>
+        <div class="meta-data">Client: Ministry of Defense</div>
+        <div class="meta-data">Mode: Aprilia, Lazio (On-site)</div>
+        <div class="meta-data">Period: Nov 2018 – Sep 2020</div>
+        <ul>
+            <li><strong>Ministry of Defense Client Management</strong>: Development and maintenance of SIAC portal (Integrated Accounting Administration System) for Ministry of Defense</li>
+            <li><strong>SIAC Problem Resolution</strong>: Bug fixing and troubleshooting of SIAC portal in legacy JSP technology, system and application management</li>
+            <li><strong>Gemini Platform</strong>: Collaborative development of web platform for network and communication service monitoring, modern full-stack architecture</li>
+            <li><strong>SIAC Modernization with Angular</strong>: Development of new SIAC portal version with Angular 2+, migration from legacy JSP technology to modern SPA</li>
+        </ul>
+        <div class="tech-tags">
+            <span class="tag">Java 8</span><span class="tag">REST API</span><span class="tag">JSP</span><span class="tag">Angular 2+</span><span class="tag">TypeScript</span><span class="tag">JavaScript</span><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">SQL Database</span><span class="tag">Git</span><span class="tag">Maven</span>
+        </div>
+
+        <h3>Intern - RPA Developer — Everis (now NTT Data)</h3>
+        <div class="meta-data">Client: WINDTRE Italia</div>
+        <div class="meta-data">Mode: Rome, Italy</div>
+        <div class="meta-data">Period: Jul 2018 – Nov 2018</div>
+        <ul>
+            <li><strong>Technology Sector Internship</strong>: Training internship in creating and optimizing Robotic Process Automation (RPA) processes at WINDTRE Italia</li>
+            <li><strong>Blue Prism Bot Development</strong>: Creation and configuration of automation bots with Blue Prism software for repetitive business processes</li>
+            <li><strong>Visual Basic Scripting</strong>: Development of VBA (Visual Basic for Applications) scripts for automating Microsoft Excel and Word operations</li>
+            <li><strong>Process Optimization</strong>: Manual process analysis, identification of automatable tasks, RPA solution implementation, testing and deployment</li>
+        </ul>
+        <div class="tech-tags">
+            <span class="tag">Blue Prism</span><span class="tag">RPA</span><span class="tag">Visual Basic</span><span class="tag">VBA</span><span class="tag">Microsoft Excel</span><span class="tag">Microsoft Word</span>
+        </div>
+    </section>
+
+    <!-- Personal Projects -->
+    <section class="section">
+        <h2>Personal Projects</h2>
+
+        <h3>Founder — Folder2Text</h3>
+        <div class="meta-data">Period: 2026 – Ongoing | Coming to Microsoft Store</div>
+        <ul>
+            <li>Desktop application for extracting and centralizing code and documentation from entire directories.</li>
+            <li>Optimized for providing complex contexts to LLM models (AI Context management).</li>
+            <li>Automatic token limit management and advanced extension filtering features.</li>
+        </ul>
+        <div class="tech-tags">
+            <span class="tag">C#</span><span class="tag">.NET</span><span class="tag">WPF</span><span class="tag">Windows SDK</span>
+        </div>
+
+        <h3>Founder — ClearCV</h3>
+        <div class="meta-data">Period: 2026 – Ongoing | https://clearcvapp.com</div>
+        <ul>
+            <li>Development of a SaaS platform for AI-assisted creation of professional CVs.</li>
+            <li>Multilingual management (23 languages), referral system, and multi-format export.</li>
+            <li>Implementation of a freemium model with payment integration via Stripe.</li>
+        </ul>
+        <div class="tech-tags">
+            <span class="tag">React 19</span><span class="tag">TypeScript</span><span class="tag">Vite</span><span class="tag">TailwindCSS</span><span class="tag">Supabase</span>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section">
+        <h2>Education</h2>
+        <p><strong>Java EE Specialization Course</strong> — Sincrono S.R.L. (05/2018 – 06/2018)</p>
+        <p><strong>Surveyor Diploma</strong> — Technical Institute "Leon Battista Alberti", Rome (2006–2011)</p>
+    </section>
+
+    <!-- Languages -->
+    <section class="section">
+        <h2>Languages</h2>
+        <p><strong>Italian</strong> — Native</p>
+        <p><strong>English</strong> — Level B1 (Intermediate)</p>
+    </section>
+
+    <!-- GDPR Notice -->
+    <footer class="gdpr-footer">
+        I authorize the processing of my personal data contained in this resume pursuant to art. 13 of the GDPR
+        (EU Regulation 2016/679) for personnel research and selection purposes.
+    </footer>
+</div>
+
+</body>
+</html>

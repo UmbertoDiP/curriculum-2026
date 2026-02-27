@@ -249,12 +249,13 @@
     <section class="section">
         <h2>Competenze Tecniche</h2>
         <p><strong>Frontend Development:</strong> Angular 19+, React 19, TypeScript, JavaScript ES6+, HTML5, CSS3, SCSS, Tailwind CSS, Bootstrap 5, RxJS, Webpack, Vite</p>
-        <p><strong>Backend Development:</strong> Java 8/11/17/21, Spring Boot, Spring MVC, Spring Security, Web Services (SOAP), SOAP UI, Node.js, Express.js, REST API, Maven, Gradle, Hibernate, JPA</p>
-        <p><strong>Database &amp; Storage:</strong> PostgreSQL, MySQL, Oracle, MongoDB</p>
-        <p><strong>DevOps &amp; Infrastructure:</strong> Git, GitLab CI/CD, Jenkins, Docker, Kubernetes, Linux, Bash scripting, Maven, npm</p>
-        <p><strong>Security Architecture:</strong> OAuth 2.0, JWT, Spring Security</p>
-        <p><strong>Firma Digitale &amp; PKI:</strong> Firma Digitale, Smart Card, Certificati X.509, eIDAS, PKCS#11</p>
-        <p><strong>Metodologie &amp; Soft Skills:</strong> Agile, Scrum, Code Review, Mentoring, Problem Solving</p>
+        <p><strong>Backend Development:</strong> Java 7/8/11/17/21, Spring Boot, Spring MVC, Spring Security, Web Services (SOAP), SOAP UI, Node.js, Express.js, REST API, Maven, Gradle, Hibernate, JPA</p>
+        <p><strong>Database &amp; Storage:</strong> PostgreSQL, MySQL, Oracle, MongoDB, SQLite</p>
+        <p><strong>DevOps &amp; Infrastructure:</strong> Git, GitLab CI/CD, Jenkins, Docker, Kubernetes, Linux, Bash scripting, Maven, npm, Nexus Repository Manager, WiX Toolset</p>
+        <p><strong>Security &amp; Authentication:</strong> OAuth 2.0, JWT, Spring Security, LDAP/LDAPS, CVE Analysis, Vulnerability Assessment</p>
+        <p><strong>Firma Digitale &amp; PKI:</strong> Firma Digitale, Smart Card, Certificati X.509, eIDAS TSL, PKCS#11, PAdES/CAdES/XAdES, OCSP/CRL, NexU, Yubikey, Bit4Id Middleware</p>
+        <p><strong>Desktop &amp; Native Development:</strong> Electron, C/C++ Integration, Windows Installer (WiX), Cross-platform Development</p>
+        <p><strong>Metodologie &amp; Soft Skills:</strong> Agile, Scrum, Code Review, Mentoring, Problem Solving, Technical Documentation, QA Processes</p>
     </section>
 
     <!-- Esperienza Professionale -->
@@ -264,18 +265,75 @@
         <h3>Consulente Java Senior Freelance — Aruba S.p.A. (tramite Experis)</h3>
         <div class="meta-data">Cliente: Banca d'Italia</div>
         <div class="meta-data">Modalità: Remoto</div>
-        <div class="meta-data">Periodo: Set 2024 – Presente</div>
+        <div class="meta-data">Periodo: Set 2024 – Feb 2026</div>
         <ul>
-            <li><strong>Gestione Cliente Banca d'Italia</strong>: Responsabile progetti Java enterprise per applicazioni bancarie con firma digitale e validazione certificati X.509/eIDAS</li>
-            <li><strong>Sviluppo Piattaforma ArubaSign</strong>: Stack completo Java/Spring Boot backend, Angular/Electron frontend, librerie native C/C++ per smartcard PKCS#11</li>
-            <li><strong>Progetto ArubaKey</strong>: Sviluppo sistema di aggiornamento automatico all'avvio, sostituendo versione legacy con architettura moderna di auto-update</li>
-            <li><strong>Packaging &amp; Deployment</strong>: Creazione installer Windows con WiX Toolset per distribuzione ArubaSign enterprise, gestione MSI/EXE con firme digitali</li>
-            <li><strong>CI/CD Pipeline</strong>: Configurazione e manutenzione pipeline GitLab CI/CD per build automatizzate, test, packaging e deployment multi-ambiente</li>
-            <li><strong>Problem Solving Avanzato</strong>: Risoluzione bug critici cross-repository con analisi Git avanzata, debug stack ibridi Java/Angular/C++, root cause analysis su regressioni tra versioni</li>
-            <li><strong>Infrastruttura</strong>: Gestione multi-progetto Maven con JDK differenziati (7-17), GitLab CI/CD, Nexus, configurazione IntelliJ per 16+ progetti</li>
+            <li><strong>Responsabile Progetti Java Enterprise</strong>: Gestione completa progetti Java per applicazioni bancarie con firma digitale e certificati X.509/eIDAS:
+                <ul style="margin-top: 5px; margin-bottom: 5px;">
+                    <li>bdife-web (Banking Digital Identity Frontend)</li>
+                    <li>pki-cruscotto-web (PKI Dashboard)</li>
+                    <li>portaledeleghe-web e portaledeleghemail-web (Delegation Portals)</li>
+                    <li>pkititolari-dss-web (NexU Digital Signature Service)</li>
+                    <li>esecurityweb-core e secretstoreutils-core (Core Libraries)</li>
+                    <li>portaledeleghe-conf e portaledeleghemail-conf (Configuration Modules)</li>
+                </ul>
+            </li>
+            <li><strong>Team Leader ArubaSign 25 Desktop</strong>: Responsabile versione custom ArubaSign 25 per Banca d'Italia
+                <ul style="margin-top: 5px; margin-bottom: 5px;">
+                    <li>Build e release multi-ambiente con GitLab CI/CD e Jenkins</li>
+                    <li>Integrazione librerie native C++ PKCS#11 per smartcard e token hardware</li>
+                    <li>Startup automatizzato, build e deployment tramite pipeline Jenkins</li>
+                    <li>Tool di integrazione OfficeTool e verify_otp per firma documenti Office</li>
+                    <li>Installer con middleware Bit4Id per supporto Yubikey</li>
+                    <li>Refactoring completo da LDAP a LDAPS come richiesto dal cliente</li>
+                </ul>
+            </li>
+            <li><strong>Progetto ArubaKey</strong>: Modernizzazione sistema auto-update
+                <ul style="margin-top: 5px; margin-bottom: 5px;">
+                    <li>Sviluppo ArubaKeyLauncher con gestione aggiornamenti avanzata</li>
+                    <li>Compatibilità multipiattaforma (Windows, macOS, Linux)</li>
+                    <li>Sostituzione sistema legacy con architettura moderna e resiliente</li>
+                </ul>
+            </li>
+            <li><strong>Packaging &amp; CI/CD</strong>:
+                <ul style="margin-top: 5px; margin-bottom: 5px;">
+                    <li>Creazione installer con WiX Toolset per deployment enterprise</li>
+                    <li>Gestione pipeline Jenkins per build e deployment multi-ambiente</li>
+                    <li>Controllo e gestione release con verifica qualità</li>
+                    <li>Verifiche e test completati senza problemi, zero ritorni da QA</li>
+                </ul>
+            </li>
+            <li><strong>Infrastruttura e Gestione Progetti</strong>:
+                <ul style="margin-top: 5px; margin-bottom: 5px;">
+                    <li>Oltre 16 progetti Maven con JDK differenziati (Java 7-17)</li>
+                    <li>Gestione repository Nexus per artifacts e dipendenze</li>
+                    <li>Analisi bug critici cross-repository con Git analysis avanzata</li>
+                    <li>Aggiornamento librerie CAPI, pdfbox, jQuery per sicurezza e performance</li>
+                    <li>Migrazione completa da Dimensions CM a Git per version control</li>
+                </ul>
+            </li>
+            <li><strong>Controlli e Quality Assurance</strong>:
+                <ul style="margin-top: 5px; margin-bottom: 5px;">
+                    <li>Verifiche complete su ArubaSign, BdIFE, DSS, NexU, ARSProvisioner</li>
+                    <li>Controllo versioni software, rollback, gestione sessioni</li>
+                    <li>Verifica warning certificati e catene di validazione</li>
+                    <li>Controlli firma digitale PAdES/XAdES conformi a normativa eIDAS</li>
+                    <li>Verifica endpoint LDAPS e client LDAP per autenticazione sicura</li>
+                    <li>Analisi vulnerabilità (CVE, jsessionid exposure, VPM security)</li>
+                    <li>Ripristino job IPA per compatibilità MySQL (Aruba) e Oracle (Banca d'Italia)</li>
+                    <li>Verifica revoca certificati verso OCSP/LDAP</li>
+                </ul>
+            </li>
+            <li><strong>Documentazione e Processi</strong>:
+                <ul style="margin-top: 5px; margin-bottom: 5px;">
+                    <li>Riorganizzazione documentazione esistente e produzione nuova documentazione tecnica</li>
+                    <li>Revisione pipeline Git Aruba e definizione linee guida DevOps</li>
+                    <li>Check release e supporto tecnico diretto al cliente Banca d'Italia</li>
+                    <li>Tutte le attività testate e verificate prima del commit in produzione, zero ritorni da QA</li>
+                </ul>
+            </li>
         </ul>
         <div class="tech-tags">
-            <span class="tag">Java 7-17</span><span class="tag">Spring Boot</span><span class="tag">Maven</span><span class="tag">JPA</span><span class="tag">Angular</span><span class="tag">TypeScript</span><span class="tag">Electron</span><span class="tag">PKI</span><span class="tag">X.509</span><span class="tag">eIDAS TSL</span><span class="tag">PAdES/CAdES</span><span class="tag">OCSP/CRL</span><span class="tag">GitLab CI/CD</span><span class="tag">WiX Toolset</span><span class="tag">Git</span><span class="tag">Jira</span><span class="tag">IntelliJ IDEA</span><span class="tag">Nexus</span><span class="tag">SQLite</span><span class="tag">PostgreSQL</span>
+            <span class="tag">Java 7-17</span><span class="tag">Spring Boot</span><span class="tag">Maven</span><span class="tag">JPA</span><span class="tag">Angular</span><span class="tag">TypeScript</span><span class="tag">Electron</span><span class="tag">PKI</span><span class="tag">X.509</span><span class="tag">eIDAS TSL</span><span class="tag">PAdES/CAdES/XAdES</span><span class="tag">OCSP/CRL</span><span class="tag">LDAP/LDAPS</span><span class="tag">PKCS#11</span><span class="tag">GitLab CI/CD</span><span class="tag">Jenkins</span><span class="tag">WiX Toolset</span><span class="tag">Git</span><span class="tag">Jira</span><span class="tag">IntelliJ IDEA</span><span class="tag">Nexus</span><span class="tag">MySQL</span><span class="tag">Oracle</span><span class="tag">SQLite</span><span class="tag">PostgreSQL</span>
         </div>
 
         <h3>Full Stack Developer — ReActive | Gruppo AlmavivA</h3>
