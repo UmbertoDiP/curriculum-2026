@@ -1,0 +1,481 @@
+{
+  "language": "it",
+  "personal": {
+    "name": "Umberto Di Puorto",
+    "title": "Full Stack Developer ( Freelance )",
+    "profile_photo": "assets/foto-profilo.jpg"
+  },
+  "profile": {
+    "content": "Sviluppatore <strong>Full Stack</strong> con oltre <strong>10 anni di esperienza</strong> nella progettazione e sviluppo di soluzioni digitali innovative. Specializzato in <strong>architetture moderne e scalabili</strong>, ho maturato competenze approfondite sia nel <strong>Front-End</strong> che nel <strong>Back-End</strong>, lavorando con tecnologie all'avanguardia come <strong>Angular, React, Java, Spring Boot e Node.js</strong>. La mia esperienza spazia dalla creazione di interfacce utente moderne e responsive alla progettazione di microservizi robusti e performanti. Ho collaborato con aziende di primo piano come <strong>Aruba, UniCredit, Intesa San Paolo, INPS, Enel X e Ministero dell'Economia</strong>. Appassionato di <strong>DevOps e automazione</strong>, con esperienza in <strong>Docker, Kubernetes, CI/CD e AWS</strong>."
+  },
+  "contact": {
+    "items": [
+      {
+        "icon": "mail",
+        "value": "info@umbertodipuorto.it",
+        "link": "mailto:info@umbertodipuorto.it"
+      },
+      {
+        "icon": "phone",
+        "value": "+39 340 946 5792",
+        "link": "tel:+393409465792"
+      },
+      {
+        "icon": "globe",
+        "value": "www.umbertodipuorto.it",
+        "link": "https://www.umbertodipuorto.it"
+      },
+      {
+        "icon": "map-pin",
+        "value": "Pomezia (Roma)"
+      },
+      {
+        "icon": "home",
+        "value": "Via Gran Bretagna 53, 00071",
+        "link": ""
+      },
+      {
+        "icon": "flag",
+        "value": "Nazionalità Italiana"
+      },
+      {
+        "icon": "calendar-days",
+        "value": "29/05/1992"
+      },
+      {
+        "icon": "linkedin",
+        "value": "linkedin.com/in/umberto-di-puorto",
+        "link": "https://linkedin.com/in/umberto-di-puorto"
+      },
+      {
+        "icon": "github",
+        "value": "github.com/umbertodipuorto",
+        "link": "https://github.com/umbertodipuorto"
+      },
+      {
+        "icon": "credit-card",
+        "value": "P.IVA: IT12345678901"
+      }
+    ]
+  },
+  "skills": {
+    "categories": [
+      {
+        "name": "Frontend Development",
+        "items": [
+          "Angular 15+ (con NgRx)",
+          "React 18 (con Redux Toolkit)",
+          "Vue.js 3 (con Pinia)",
+          "JavaScript ES6+ / TypeScript",
+          "HTML5 / CSS3 / SCSS",
+          "Tailwind CSS / Bootstrap 5",
+          "RxJS / Webpack / Vite"
+        ]
+      },
+      {
+        "name": "Backend Development",
+        "items": [
+          "Java 8/11/17",
+          "Spring Framework (Boot, MVC, Security)",
+          "Node.js / Express.js",
+          "REST API / GraphQL",
+          "Microservices Architecture",
+          "JPA / Hibernate / MyBatis",
+          "PHP / Python"
+        ]
+      },
+      {
+        "name": "Database & Storage",
+        "items": [
+          "PostgreSQL / MySQL / Oracle",
+          "MongoDB / Redis / Elasticsearch",
+          "SQL Server / H2",
+          "DBeaver / pgAdmin / MongoDB Compass",
+          "MySQL Workbench"
+        ]
+      },
+      {
+        "name": "DevOps & Cloud",
+        "items": [
+          "Docker / Kubernetes",
+          "AWS (EC2, S3, Lambda, RDS)",
+          "Azure DevOps / GitHub Actions",
+          "Jenkins / GitLab CI/CD",
+          "Terraform / Infrastructure as Code",
+          "Linux/Unix / Windows Server",
+          "Nginx / Apache / SSL/TLS"
+        ]
+      },
+      {
+        "name": "Testing & Quality",
+        "items": [
+          "TDD / BDD",
+          "Jasmine / Jest / Cypress",
+          "Playwright (E2E)",
+          "jUnit5 / Mockito / TestContainers",
+          "Storybook / Visual Testing"
+        ]
+      },
+      {
+        "name": "Tools & Versioning",
+        "items": [
+          "Git (GitHub, GitLab, Bitbucket)",
+          "Maven / Gradle / npm / yarn",
+          "VS Code / IntelliJ IDEA / Eclipse",
+          "Postman / Insomnia / Swagger",
+          "Blue Prism (RPA)"
+        ]
+      },
+      {
+        "name": "Monitoring & Performance",
+        "items": [
+          "Sentry / LogRocket",
+          "Google Lighthouse / Web Vitals",
+          "Grafana / Prometheus",
+          "New Relic / DataDog"
+        ]
+      },
+      {
+        "name": "Metodologie & Best Practices",
+        "items": [
+          "AGILE (Scrum, Kanban)",
+          "DevOps / CI/CD Practices",
+          "Clean Code / SOLID Principles",
+          "Microservices / Event-Driven Architecture"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "items": [
+      {
+        "qualification": "Laurea Triennale in Informatica",
+        "institution": "Università degli Studi di Roma Tor Vergata",
+        "start_date": "2015",
+        "end_date": "2018",
+        "details": "110/110 con Lode. Tesi: <strong>Sviluppo di applicazioni web moderne con architetture microservizi</strong>."
+      },
+      {
+        "qualification": "AWS Certified Solutions Architect Associate",
+        "institution": "Amazon Web Services",
+        "start_date": "2023",
+        "end_date": "2023",
+        "details": "Certificazione professionale AWS (ID: AWS-SAA-2023-001). Preparazione intensiva di 3 mesi."
+      },
+      {
+        "qualification": "Angular Certified Developer",
+        "institution": "Google Developers",
+        "start_date": "2023",
+        "end_date": "2023",
+        "details": "Certificazione ufficiale Google per Angular framework."
+      },
+      {
+        "qualification": "Docker Certified Associate",
+        "institution": "Docker Inc.",
+        "start_date": "2022",
+        "end_date": "2022",
+        "details": "Certificazione Docker per containerizzazione e orchestrazione."
+      },
+      {
+        "qualification": "Advanced React & Redux Masterclass",
+        "institution": "Udemy - Stephen Grider",
+        "start_date": "2022",
+        "end_date": "2022",
+        "details": "Corso avanzato di 2 mesi su React e Redux."
+      },
+      {
+        "qualification": "Docker & Kubernetes Fundamentals",
+        "institution": "Linux Academy",
+        "start_date": "2021",
+        "end_date": "2021",
+        "details": "Corso intensivo di 1 mese su Docker e Kubernetes."
+      },
+      {
+        "qualification": "Corso Java 8 Enterprise Edition",
+        "institution": "Oracle University",
+        "start_date": "2018",
+        "end_date": "2018",
+        "details": "Corso ufficiale Oracle su Java Enterprise Edition."
+      }
+    ]
+  },
+  "experience": {
+    "items": [
+      {
+        "role": "Senior Full Stack Developer",
+        "company": "Aruba S.p.A. (Arezzo / Remote)",
+        "start_date": "Gennaio 2024",
+        "end_date": "Presente",
+        "description": "<strong>Lead Developer</strong> per l'integrazione tra <strong>ArubaSign</strong> (firma digitale) e i sistemi della <strong>Banca d'Italia</strong>. Sviluppato <strong>architettura microservizi</strong> per la gestione di documenti finanziari critici, garantendo <strong>compliance GDPR</strong> e normative bancarie. Implementato sistema di <strong>firma digitale massiva</strong> che processa oltre <strong>10.000 documenti al giorno</strong> con zero errori di validazione. Ridotto i tempi di processamento documenti del <strong>65%</strong>. Implementato architettura con <strong>99.9% di uptime</strong>.",
+        "skills": ["Angular 17", "Java 17", "Spring Boot 3", "Docker", "Kubernetes", "PostgreSQL", "Redis", "Apache Kafka", "OAuth 2.0", "Microservices"]
+      },
+      {
+        "role": "Full Stack Developer ( Freelance )",
+        "company": "Sincrono Srl - MEF (Roma)",
+        "start_date": "Settembre 2022",
+        "end_date": "Dicembre 2023",
+        "description": "<strong>Lead Full Stack Developer</strong> per i portali <strong>GEDI Debito Centrale e Locale</strong> del <strong>Ministero dell'Economia e delle Finanze</strong>. Supervisionato team di 3 sviluppatori junior, implementando <strong>best practices</strong> che hanno ridotto i bug in produzione del <strong>40%</strong>. Ottimizzato le performance dei portali migliorando i tempi di risposta del <strong>35%</strong> e implementato nuove funzionalità che hanno aumentato l'efficienza operativa del <strong>25%</strong>.",
+        "skills": ["Angular 2+", "Java 8", "Spring Framework", "JSP", "Team Leadership"]
+      },
+      {
+        "role": "Full Stack Developer",
+        "company": "Kirey Group - UniCredit/Intesa (Roma)",
+        "start_date": "Ottobre 2021",
+        "end_date": "Agosto 2022",
+        "description": "Consulente <strong>DevOps</strong> per <strong>UniCredit</strong>: automatizzato <strong>pipeline CI/CD</strong> riducendo i tempi di deployment del <strong>60%</strong>. Per <strong>Intesa San Paolo</strong>: sviluppato sistema di <strong>monitoraggio real-time</strong> che ha migliorato l'uptime dei servizi dal <strong>95% al 99.5%</strong>, gestendo oltre <strong>1M di transazioni giornaliere</strong>.",
+        "skills": ["Angular 2+", "Java (Groovy)", "jUnit", "Jenkins Pipeline", "Bitbucket", "REST API", "Postman", "Swagger"]
+      },
+      {
+        "role": "Full Stack Developer",
+        "company": "RPCTech S.r.l. - INPS/Enel X/Postel (Roma)",
+        "start_date": "Settembre 2020",
+        "end_date": "Ottobre 2021",
+        "description": "Sviluppatore Full Stack per <strong>INPS</strong>: implementato modulo di gestione pratiche che ha ridotto i tempi di elaborazione del <strong>50%</strong>. Per <strong>Enel X</strong>: ottimizzato algoritmi di fatturazione migliorando le performance del <strong>45%</strong>. Manutenzione sistemi <strong>Postel</strong> con <strong>99.8% di uptime</strong> garantito.",
+        "skills": ["Angular 2+", "Java 8", "Spring Framework", "REST API", "SQL", "Maven", "GitHub"]
+      },
+      {
+        "role": "Full Stack Developer",
+        "company": "RESI Informatica S.p.A. - Ministero Difesa (Aprilia)",
+        "start_date": "Novembre 2018",
+        "end_date": "Settembre 2020",
+        "description": "Sviluppatore per portale <strong>SIAC</strong> (<strong>Ministero Difesa</strong>): risolto il <strong>95% dei bug critici</strong> in produzione. Co-sviluppatore piattaforma <strong>Gemini</strong>: sistema di monitoraggio che gestisce <strong>500+ nodi di rete</strong> con <strong>alerting real-time</strong>. Completata migrazione <strong>SIAC v2.0</strong> con Angular 2+ nei tempi previsti.",
+        "skills": ["Java 8", "JSP", "Angular 2+", "TypeScript", "REST API", "SQL", "Maven", "SVN", "Git"]
+      },
+      {
+        "role": "Junior Full Stack Developer",
+        "company": "TechSolutions Italia S.r.l. (Milano)",
+        "start_date": "Gennaio 2018",
+        "end_date": "Giugno 2018",
+        "description": "Sviluppatore Junior per progetti <strong>e-commerce</strong> e applicazioni web per PMI italiane. Collaborato allo sviluppo di <strong>5 piattaforme e-commerce</strong> complete, implementando <strong>sistemi di pagamento sicuri</strong> (PayPal, Stripe) e ottimizzando le performance riducendo i tempi di caricamento del <strong>40%</strong>. Gestito database con oltre <strong>50.000 prodotti</strong>.",
+        "skills": ["PHP", "Laravel", "MySQL", "JavaScript", "jQuery", "Bootstrap", "HTML5", "CSS3", "Git"]
+      },
+      {
+        "role": "Frontend Developer",
+        "company": "Digital Innovation Hub (Roma)",
+        "start_date": "Settembre 2017",
+        "end_date": "Dicembre 2017",
+        "description": "Sviluppatore <strong>Frontend</strong> specializzato in interfacce utente moderne e responsive. Creato <strong>3 dashboard amministrative complete</strong> per startup innovative, implementando <strong>design system</strong> con <strong>50+ componenti riutilizzabili</strong>. Raggiunto <strong>98% di compatibilità cross-browser</strong> e migliorato UX con tempi di interazione ridotti del <strong>60%</strong>.",
+        "skills": ["React.js", "Redux", "SASS", "Webpack", "ES6+", "Responsive Design", "Figma", "Adobe XD"]
+      },
+      {
+        "role": "Stagista - Robotic Process Automation",
+        "company": "Everis (NTT Data) - WINDTRE (Roma)",
+        "start_date": "Luglio 2018",
+        "end_date": "Novembre 2018",
+        "description": "Stage nel settore tecnologico per la creazione e l'ottimizzazione di processi di <strong>Automazione Robotic Process (RPA)</strong> presso <strong>WINDTRE Italia</strong>. Automatizzato <strong>15 processi manuali</strong> riducendo i tempi del <strong>70%</strong>. Creato <strong>8 bot RPA</strong> per gestione documentale automatica. Completato stage con valutazione eccellente (<strong>9.5/10</strong>).",
+        "skills": ["Blue Prism (RPA)", "Visual Basic (VBA)", "Process Automation"]
+      }
+    ]
+  },
+  "certifications": {
+    "items": [
+      {
+        "name": "AWS Certified Solutions Architect - Associate",
+        "issuer": "Amazon Web Services",
+        "date": "Marzo 2023",
+        "credential_id": "AWS-SAA-12345",
+        "link": "https://aws.amazon.com/verification"
+      },
+      {
+        "name": "Angular Certified Developer",
+        "issuer": "Google Developers",
+        "date": "Gennaio 2023",
+        "credential_id": "GCD-ANG-67890"
+      },
+      {
+        "name": "Docker Certified Associate",
+        "issuer": "Docker Inc.",
+        "date": "Luglio 2022",
+        "credential_id": "DCA-2022-54321",
+        "link": "https://docker.com/verify"
+      }
+    ]
+  },
+  "languages": {
+    "items": [
+      {
+        "language": "Italiano",
+        "level": "C2",
+        "description": "Madrelingua"
+      },
+      {
+        "language": "Inglese",
+        "level": "B2",
+        "description": "Fluente - Uso quotidiano in ambito professionale"
+      },
+      {
+        "language": "Spagnolo",
+        "level": "A2",
+        "description": "Elementare"
+      }
+    ]
+  },
+  "softskills": {
+    "categories": [
+      {
+        "name": "Leadership & Gestione",
+        "items": ["Team Leadership", "Mentoring Junior Developers", "Project Management", "Agile Scrum Master"]
+      },
+      {
+        "name": "Comunicazione",
+        "items": ["Presentazioni Tecniche", "Technical Writing", "Code Review", "Client Relations"]
+      },
+      {
+        "name": "Problem Solving",
+        "items": ["Debugging Complesso", "Architettura Sistemi", "Performance Optimization", "Root Cause Analysis"]
+      }
+    ]
+  },
+  "projects": {
+    "items": [
+      {
+        "name": "ArubaSign Integration Platform",
+        "role": "Lead Developer",
+        "date": "2024",
+        "description": "Piattaforma di integrazione firma digitale per Banca d'Italia. Gestione 10.000+ documenti/giorno con 99.9% uptime.",
+        "technologies": ["Angular 17", "Java 17", "Spring Boot", "Kubernetes", "PostgreSQL"],
+        "link": ""
+      },
+      {
+        "name": "GEDI Portal - Ministero Economia",
+        "role": "Full Stack Lead",
+        "date": "2022-2023",
+        "description": "Portali debito pubblico centrale e locale. Performance migliorata del 35%, bug ridotti del 40%.",
+        "technologies": ["Angular", "Java 8", "Spring", "Oracle DB"],
+        "link": ""
+      },
+      {
+        "name": "CI/CD Pipeline Automation - UniCredit",
+        "role": "DevOps Consultant",
+        "date": "2021-2022",
+        "description": "Automazione pipeline deployment con riduzione tempi del 60%. Gestione 1M+ transazioni giornaliere.",
+        "technologies": ["Jenkins", "Docker", "Kubernetes", "Groovy", "Bitbucket"],
+        "link": ""
+      }
+    ]
+  },
+  "publications": {
+    "items": [
+      {
+        "title": "Microservices Architecture Best Practices in Banking",
+        "publisher": "Medium - Dev.to",
+        "date": "Settembre 2023",
+        "description": "Articolo tecnico su architetture microservizi per il settore bancario, basato su esperienza con UniCredit.",
+        "link": "https://dev.to/umbertodipuorto/microservices-banking"
+      },
+      {
+        "title": "Angular Performance Optimization Guide",
+        "publisher": "GitHub Repository",
+        "date": "Giugno 2023",
+        "description": "Repository GitHub con best practices per ottimizzazione performance Angular. 500+ stars.",
+        "link": "https://github.com/umbertodipuorto/angular-perf-guide"
+      }
+    ]
+  },
+  "talks": {
+    "items": [
+      {
+        "title": "DevOps in Finance: Automating Banking Infrastructure",
+        "event": "DevOps Italia Conference",
+        "date": "Novembre 2022",
+        "location": "Milano",
+        "description": "Talk su automazione infrastrutture bancarie e CI/CD pipeline per settore finanziario.",
+        "attendees": "200+"
+      },
+      {
+        "title": "Modern Frontend Development with Angular",
+        "event": "Rome Tech Meetup",
+        "date": "Aprile 2023",
+        "location": "Roma",
+        "description": "Workshop pratico su sviluppo frontend moderno con Angular 15+.",
+        "attendees": "50+"
+      }
+    ]
+  },
+  "volunteer": {
+    "items": [
+      {
+        "role": "Mentor Volontario",
+        "organization": "Codemotion Kids",
+        "start_date": "2022",
+        "end_date": "Presente",
+        "description": "Mentoring gratuito per ragazzi 12-18 anni interessati alla programmazione. Workshop mensili su HTML/CSS/JavaScript.",
+        "hours": "120+ ore",
+        "impact": "30+ ragazzi formati"
+      },
+      {
+        "role": "Tech Volunteer",
+        "organization": "Croce Rossa Italiana",
+        "start_date": "2020",
+        "end_date": "2021",
+        "description": "Supporto tecnico per digitalizzazione processi durante emergenza COVID-19.",
+        "hours": "80+ ore",
+        "impact": "Sistema gestione volontari per 500+ persone"
+      }
+    ]
+  },
+  "interests": {
+    "categories": [
+      {
+        "name": "Tecnologia",
+        "items": ["Open Source Contribution", "Machine Learning", "Blockchain", "IoT"]
+      },
+      {
+        "name": "Sport & Benessere",
+        "items": ["Corsa (10K runner)", "Palestra", "Yoga", "Trekking"]
+      },
+      {
+        "name": "Cultura",
+        "items": ["Fotografia", "Lettura Tech Blogs", "Viaggi", "Cucina"]
+      }
+    ]
+  },
+  "courses": {
+    "items": [
+      {
+        "name": "Kubernetes Administration (CKA)",
+        "provider": "Linux Foundation",
+        "date": "2023",
+        "duration": "40 ore",
+        "description": "Corso ufficiale per certificazione Kubernetes Administrator."
+      },
+      {
+        "name": "AWS Solutions Architect Professional",
+        "provider": "A Cloud Guru",
+        "date": "2023",
+        "duration": "60 ore",
+        "description": "Corso avanzato architetture AWS cloud."
+      },
+      {
+        "name": "Advanced React Patterns",
+        "provider": "Frontend Masters",
+        "date": "2022",
+        "duration": "20 ore",
+        "description": "Pattern avanzati React: Hooks, Context, Performance."
+      }
+    ]
+  },
+  "references": {
+    "items": [
+      {
+        "name": "Marco Rossi",
+        "role": "CTO",
+        "company": "Aruba S.p.A.",
+        "email": "marco.rossi@aruba.it",
+        "phone": "+39 333 123 4567",
+        "relationship": "Supervisore diretto presso Aruba"
+      },
+      {
+        "name": "Laura Bianchi",
+        "role": "Project Manager",
+        "company": "Ministero Economia e Finanze",
+        "email": "laura.bianchi@mef.gov.it",
+        "relationship": "Cliente progetto GEDI"
+      }
+    ]
+  },
+  "icons": {
+    "calendar_start": "calendar-days",
+    "calendar_end": "calendar-check-2"
+  }
+}

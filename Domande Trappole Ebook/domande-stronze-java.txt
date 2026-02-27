@@ -1,0 +1,369 @@
+------------------------------------------------------------
+Domande Java Ebook:
+------------------------------------------------------------
+### Sezione 1: Domande Sottovalutate
+
+1. Qual è la differenza tra `==` e `equals()` in Java?
+2. Cos'è un costruttore in Java?
+3. Che cos'è l'overloading di un metodo?
+4. Cos'è il polimorfismo?
+5. Cos'è l'ereditarietà?
+6. Qual è la differenza tra una classe astratta e un'interfaccia?
+7. Cos'è un pacchetto in Java?
+8. Cos'è la JVM?
+9. Qual è la differenza tra `ArrayList` e `LinkedList`?
+10. Cos'è il garbage collector?
+11. Che cos'è un metodo statico?
+12. Qual è la differenza tra `public`, `protected`, `default` e `private`?
+13. Cos'è un `HashMap`?
+14. Cos'è il JDK?
+15. Qual è la differenza tra `String`, `StringBuilder` e `StringBuffer`?
+16. Cos'è l'incapsulamento?
+17. Come si può creare un thread in Java?
+18. Qual è la differenza tra `throw` e `throws`?
+19. Cos'è l'API Stream di Java?
+20. Come si gestiscono le eccezioni in Java?
+21. Cos'è un'annotazione in Java?
+22. Qual è la differenza tra `List` e `Set`?
+23. Cos'è una `ConcurrentHashMap`?
+24. Come funziona il `final` keyword in Java?
+25. Cos'è un `enum` in Java?
+26. Che cos'è un generico in Java?
+27. Qual è la differenza tra `Runnable` e `Callable`?
+28. Cos'è il paradigma della programmazione orientata agli oggetti (OOP)?
+29. Che cos'è l'inversione di controllo (IoC)?
+30. Cos'è un bean in Java?
+31. Come si può eseguire il debug di un programma Java?
+32. Qual è la differenza tra `==` e `equalsIgnoreCase()`?
+33. Come funziona l'ereditarietà singola in Java?
+34. Cos'è il metodo `clone()`?
+35. Qual è la differenza tra un'interfaccia funzionale e una non funzionale?
+36. Come si può sincronizzare un blocco di codice?
+37. Cos'è un `ClassLoader` in Java?
+38. Qual è la differenza tra `try-catch` e `try-with-resources`?
+39. Cos'è un'eccezione controllata?
+40. Come funziona il pattern Singleton in Java?
+41. Cos'è un `ArrayDeque`?
+42. Come funziona un `LinkedList`?
+43. Qual è la differenza tra `Array` e `ArrayList`?
+44. Cos'è un `BufferedReader`?
+45. Come si utilizza un `FileReader`?
+46. Cos'è un `FileWriter`?
+47. Come funziona un `BufferedWriter`?
+48. Cos'è un `PrintWriter`?
+49. Qual è la differenza tra `InputStream` e `Reader`?
+50. Cos'è una `CheckedException`?
+51. Come si utilizza il `throws` keyword?
+52. Qual è la differenza tra `SQLException` e `IOException`?
+53. Cos'è un `try-catch-finally` block?
+54. Cos'è un `Stack`?
+55. Come si utilizza una `Queue`?
+56. Cos'è un `PriorityQueue`?
+57. Cos'è un `Optional` in Java?
+58. Qual è la differenza tra `checked` e `unchecked` exceptions?
+59. Cos'è il `Comparator` nel pacchetto `java.util`?
+60. Come si può rendere una classe immutabile?
+61. Cos'è il `@FunctionalInterface`?
+62. Come funziona il `foreach` loop in Java?
+63. Qual è la differenza tra `System.out` e `System.err`?
+64. Cos'è un `ResourceBundle`?
+65. Come si può convertire una lista in un array?
+66. Cos'è il `@Override` annotation?
+67. Qual è la differenza tra `parseInt` e `valueOf`?
+68. Cos'è un `ServiceLoader`?
+69. Come si usa il `this` keyword?
+70. Qual è la differenza tra `length` e `length()`?
+71. Cos'è il `@SuppressWarnings`?
+72. Come si può ottenere la dimensione di un file?
+73. Qual è la differenza tra `Path` e `File`?
+74. Cos'è un `@SafeVarargs`?
+75. Come si può creare una lista immutabile?
+76. Cos'è un `LinkedHashMap`?
+77. Come funziona un `TreeSet`?
+78. Qual è la differenza tra `NavigableSet` e `SortedSet`?
+79. Cos'è un `Properties` file?
+80. Come si utilizza un `Properties` file?
+81. Cos'è un `DataInputStream`?
+82. Come funziona un `DataOutputStream`?
+83. Qual è la differenza tra `BufferedReader` e `Scanner`?
+84. Cos'è una `FileNotFoundException`?
+85. Cos'è un `AssertionError`?
+86. Come si utilizza un `PriorityQueue`?
+87. Come funziona un `HashSet`?
+88. Qual è la differenza tra `HashSet` e `TreeSet`?
+89. Cos'è un `Statement` in JDBC?
+90. Come si utilizza un `CallableStatement`?
+91. Come funziona la reflection in Java?
+92. Cos'è un costruttore di copia?
+93. Come funziona il join() method in un thread?
+95. Qual è la differenza tra deep copy e shallow copy?
+96. Come si implementa un singleton thread-safe?
+96. Cos'è un SoftReference in Java?
+97. Come funziona il CopyOnWriteArrayList?
+98. Qual è la differenza tra EnumSet e HashSet?
+99. Come funziona un PriorityBlockingQueue?
+
+### Sezione 2: Domande di Difficoltà Bassa
+
+1. Cos'è un'annotazione in Java?
+2. Qual è la differenza tra `List` e `Set`?
+3. Cos'è una `ConcurrentHashMap`?
+4. Come funziona il `final` keyword in Java?
+5. Cos'è un `enum` in Java?
+6. Che cos'è un generico in Java?
+7. Qual è la differenza tra `Runnable` e `Callable`?
+8. Cos'è il paradigma della programmazione orientata agli oggetti (OOP)?
+9. Che cos'è l'inversione di controllo (IoC)?
+10. Cos'è un bean in Java?
+11. Come si può eseguire il debug di un programma Java?
+12. Come funziona il `try-with-resources` statement?
+13. Come si può sincronizzare un blocco di codice?
+14. Cos'è un `ClassLoader` in Java?
+15. Cos'è un `Semaphore`?
+16. Come funziona un `ThreadPoolExecutor`?
+17. Cos'è il pattern Observer?
+18. Qual è la differenza tra `notify()` e `notifyAll()`?
+19. Cos'è la serializzazione in Java?
+20. Qual è la differenza tra `Comparable` e `Comparator`?
+21. Come funziona il `volatile` keyword?
+22. Cos'è il pattern Builder?
+23. Qual è la differenza tra `Stack` e `Queue`?
+24. Cos'è l'injection di dipendenze?
+25. Cos'è un `ThreadLocal`?
+26. Cos'è un `NavigableSet`?
+27. Come funziona il `PriorityQueue`?
+28. Qual è la differenza tra `Dequeue` e `Queue`?
+29. Cos'è un `ScheduledExecutorService`?
+30. Cos'è un `DataSource`?
+31. Come funziona il `JDBC`?
+32. Qual è la differenza tra `Statement` e `PreparedStatement`?
+33. Cos'è il `JUnit`?
+34. Come si utilizza il `Mockito`?
+35. Cos'è un `BlockingDeque`?
+36. Come funziona un `LinkedBlockingDeque`?
+37. Qual è la differenza tra `ArrayBlockingQueue` e `LinkedBlockingQueue`?
+38. Cos'è un `FileChannel`?
+39. Come si utilizza un `FileLock`?
+40. Cos'è un `MappedByteBuffer`?
+41. Come funziona un `AsynchronousFileChannel`?
+42. Qual è la differenza tra `FileInputStream` e `FileReader`?
+43. Cos'è un `PushbackInputStream`?
+44. Come si gestisce una `EOFException`?
+45. Cos'è un `ClassNotFoundException`?
+46. Qual è la differenza tra `DataSource` e `DriverManager`?
+47. Cos'è un `Transaction` in JDBC?
+48. Come si utilizza un `Savepoint`?
+49. Cos'è un `Connection Pooling`?
+50. Qual è la differenza tra `Connection` e `DataSource`?
+51. Cos'è un `TestSuite` in JUnit?
+52. Come si utilizza un `TestRunner`?
+53. Cos'è un @Autowired annotation?
+54. Come si utilizza Spring Bean Lifecycle?
+55. Qual è la differenza tra BeanFactory e ApplicationContext?
+56. Cos'è il pattern Factory?
+57. Come funziona il Observer pattern?
+58. Cos'è il @Component in Spring?
+59. Come si utilizza il ThreadPoolExecutor?
+60. Qual è la differenza tra Comparable e Comparator?
+
+### Sezione 3: Domande di Difficoltà Media
+
+1. Cos'è una `WeakReference`?
+2. Qual è la differenza tra `AbstractList` e `AbstractCollection`?
+3. Come funziona la reflection in Java?
+4. Qual è la differenza tra `wait()` e `sleep()`?
+5. Come si può evitare il deadlock in Java?
+6. Cos'è un `Future` in Java?
+7. Qual è la differenza tra `Runnable` e `Callable`?
+8. Come funziona il `ForkJoinPool`?
+9. Qual è la differenza tra `ReentrantLock` e `synchronized`?
+10. Cos'è un `ExecutorService`?
+11. Qual è la differenza tra `CopyOnWriteArrayList` e `ArrayList`?
+12. Cos'è un `Phaser`?
+13. Come si utilizza il `Exchanger`?
+14. Qual è la differenza tra `Semaphore` e `Mutex`?
+15. Cos'è un `CyclicBarrier`?
+16. Come funziona il `StampedLock`?
+17. Qual è la differenza tra `Condition` e `ReentrantLock`?
+18. Come si utilizza un `RecursiveTask`?
+19. Qual è la differenza tra `RecursiveTask` e `RecursiveAction`?
+20. Cos'è un `JdbcTemplate`?
+21. Come funziona un `NamedParameterJdbcTemplate`?
+22. Qual è la differenza tra `RowMapper` e `ResultSetExtractor`?
+23. Cos'è un `Entity` in JPA?
+24. Come funziona un `@ManyToOne` relationship?
+25. Qual è la differenza tra `Unit Test` e `Integration Test`?
+26. Cos'è il `TestNG`?
+27. Come funziona il `Spring Data JPA`?
+28. Come si utilizza il `EntityManager`?
+29. Cos'è un `TransactionManager`?
+30. Qual è la differenza tra `Session` e `EntityManager`?
+31. Cos'è un `CriteriaQuery`?
+32. Come si utilizza una `Specification`?
+33. Qual è la differenza tra `Batch Processing` e `Bulk Processing` in JDBC?
+34. Cos'è il `Spring Cloud`?
+35. Come si utilizza il `Spring Cloud Gateway`?
+36. Cos'è un `Circuit Breaker`?
+37. Qual è la differenza tra `Hystrix` e `Resilience4j`?
+38. Cos'è il `Jenkins`?
+39. Come si utilizza il `Maven`?
+40. Cos'è un `ThreadLocalRandom`?
+41. Come funziona il @Transactional annotation in Spring?
+42. Qual è la differenza tra Entity e DTO?
+43. Cos'è un Service in Spring?
+44. Come funziona il Spring Boot Autoconfiguration?
+45. Qual è la differenza tra Eager Loading e Lazy Loading?
+46. Cos'è il @Async annotation in Spring?
+47. Come si implementa la Pagination in Spring Data JPA?
+48. Qual è la differenza tra BeanPostProcessor e BeanFactoryPostProcessor?
+49. Come si utilizza il ObjectMapper in Jackson?
+50. Cos'è un Method Reference?
+
+### Sezione 4: Domande di Difficoltà Alta
+
+1. Come funziona la memory model di Java?
+2. Cos'è un `AtomicInteger`?
+3. Qual è la differenza tra `HashSet` e `TreeSet`?
+4. Come si implementa un custom ClassLoader?
+5. Cos'è il pattern Decorator?
+6. Qual è la differenza tra `CyclicBarrier` e `CountDownLatch`?
+7. Come si gestisce la concorrenza con `java.util.concurrent`?
+8. Cos'è un `ThreadLocal`?
+9. Qual è la differenza tra `Stream` e `ParallelStream`?
+10. Come si può ottimizzare la performance di un'applicazione Java?
+11. Come funziona il Garbage Collector G1?
+12. Cos'è un `CompletableFuture`?
+13. Come funziona il `VarHandle`?
+14. Qual è la differenza tra `Xmx` e `Xms`?
+15. Cos'è il pattern Visitor?
+16. Come funziona il `Metaspace` in Java?
+17. Qual è la differenza tra `SoftReference` e `WeakReference`?
+18. Cos'è il pattern Mediator?
+19. Come funziona la `Escape Analysis`?
+20. Qual è la differenza tra `JIT` e `AOT` compilation?
+21. Cos'è un `WatchService`?
+22. Come si utilizza un `CompletionService`?
+23. Cos'è un `CountedCompleter`?
+24. Qual è la differenza tra `ForkJoinTask` e `RecursiveTask`?
+25. Come funziona il `ConcurrentSkipListMap`?
+26. Cos'è un `Spring Boot Starter`?
+27. Qual è la differenza tra `Spring MVC` e `Spring WebFlux`?
+28. Cos'è il `Spring AOP`?
+29. Come si utilizza il `@Aspect`?
+30. Qual è la differenza tra `pointcut` e `advice`?
+31. Cos'è il `Spring Integration`?
+32. Come funziona il `Spring AMQP`?
+33. Qual è la differenza tra `Kafka` e `RabbitMQ`?
+34. Come si utilizza il `EntityManagerFactory`?
+35. Qual è la differenza tra `PersistenceUnit` e `PersistenceContext`?
+36. Cos'è il pattern Chain of Responsibility?
+37. Cos'è il `Hibernate`?
+38. Come funziona un `SessionFactory`?
+39. Cos'è il `Spring Data REST`?
+40. Qual è la differenza tra `GraphQL` e `REST`?
+41. Cos'è il Java Memory Model?
+42. Come funziona il Garbage Collector in Java?
+43. Qual è la differenza tra CMS e G1 Garbage Collector?
+44. Come si ottimizza il Garbage Collection?
+45. Cos'è il Epsilon GC?
+46. Come funziona il ZGC in Java?
+47. Qual è la differenza tra SoftReference, WeakReference e PhantomReference?
+48. Cos'è un Native Memory Tracking?
+49. Come funziona il Metaspace?
+50. Cos'è il GraalVM?
+51. Qual è la differenza tra AOT e JIT compilation?
+52. Come si utilizza Quarkus?
+53. Cos'è un Reactive Stream?
+54. Qual è la differenza tra Mono e Flux in Project Reactor?
+55. Come funziona la Backpressure nei sistemi reattivi?
+56. Cos'è il Virtual Thread in Project Loom?
+57. Qual è la differenza tra Thread e Fiber?
+58. Come si gestisce la concorrenza con CompletableFuture?
+59. Cos'è un Asynchronous Computation?
+60. Come funziona la Escape Analysis?
+
+### Sezione 5: Domande Killer
+
+1. Come si implementa un custom `ForkJoinTask`?
+2. Cos'è il pattern Flyweight?
+3. Come si utilizza il `JMH` per il benchmarking?
+4. Qual è la differenza tra `CMS` e `G1` Garbage Collector?
+5. Cos'è il `Project Loom`?
+6. Come si utilizzano i `Data Classes` in Java?
+7. Cos'è il `Pattern Matching` per `instanceof`?
+8. Come si utilizza `Records` in Java?
+9. Cos'è il `Sealed Classes`?
+10. Come funziona il `Text Blocks`?
+11. Cos'è il `Foreign Function and Memory API`?
+12. Come si utilizza `ZGC`?
+13. Come funziona il `Shenandoah Garbage Collector`?
+14. Cos'è un `Reactive Stream`?
+15. Come si utilizza il `Spring Cloud Contract`?
+16. Come funziona il `Spring Cloud Kubernetes`?
+17. Qual è la differenza tra `Monolith` e `Microservices`?
+18. Come si utilizza il `Spring Cloud Sleuth`?
+19. Cos'è il `Spring Cloud Function`?
+20. Come funziona il `Istio`?
+21. Cos'è un `Service Mesh`?
+22. Come si utilizza `Terraform`?
+23. Qual è la differenza tra `JWT` e `OAuth2`?
+24. Cos'è il `Spring Cloud Gateway`?
+25. Come si utilizza il `Prometheus`?
+26. Cos'è il `Grafana`?
+27. Come funziona il `Spring Boot Admin`?
+28. Cos'è il pattern Command?
+29. Come funziona il `Hystrix`?
+30. Qual è la differenza tra `Feign` e `RestTemplate`?
+31. Cos'è il Z Garbage Collector?
+32.Come si utilizza ZGC per l'ottimizzazione delle performance?
+33.Cos'è un ForkJoinWorkerThread?
+34.Come si implementa un Work Stealing algorithm?
+35.Qual è la differenza tra SynchronousQueue e LinkedTransferQueue?
+36.Come funziona un PriorityBlockingQueue?
+37.Qual è la differenza tra ConcurrentMap e ConcurrentNavigableMap?
+38.Come si implementa un Distributed Cache?
+39.Cos'è un Thread Dump?
+40.Come si analizza un Heap Dump?
+
+### Sezione 6: Argomenti Speciali
+
+1. Cos'è il modulo `java.base`?
+2. Come si utilizza `jlink`?
+3. Cos'è il `Java Flight Recorder`?
+4. Come funziona il `Z Garbage Collector`?
+5. Cos'è un `Structured Concurrency`?
+6. Come si utilizzano le `VarHandle` per la concorrenza?
+7. Come funziona il `Shenandoah Garbage Collector`?
+8. Cos'è il `Pattern Matching` per `switch`?
+9. Come si utilizzano le `Vector API`?
+10. Cos'è il `JEP 411`?
+11. Come funziona il `Hidden Classes`?
+12. Come si utilizza il `Spring Cloud AWS`?
+13. Qual è la differenza tra `AWS` e `Azure`?
+14. Cos'è il `Spring Cloud Vault`?
+15. Come funziona il `Spring Native`?
+16. Come si utilizza il `Spring Cloud Stream`?
+17. Cos'è il `Spring Cloud Task`?
+18. Come funziona il `Spring Cloud Function`?
+19. Qual è la differenza tra `Spring Boot` e `Spring Framework`?
+20. Cos'è un `CloudFormation`?
+21. Come si utilizza `Ansible`?
+22. Come funziona il `Service Discovery`?
+23. Cos'è il `Zipkin`?
+24. Qual è la differenza tra `Distributed Tracing` e `Logging`?
+25. Come funziona il `Spring Boot DevTools`?
+26. Cos'è il `Spring Boot CLI`?
+27. Come si utilizza il `Maven Surefire Plugin`?
+28. Cos'è il `Jib` per la containerizzazione?
+29. Come funziona `Bazel` come strumento di build?
+30. Qual è la differenza tra `Docker` e `Kubernetes`?
+31. Come funziona il Project Loom?
+32. Qual è la differenza tra Green Threads e OS Threads?
+33. Come si utilizza Panama Project?
+34. Cos'è il Pattern Matching per switch?
+35. Come si utilizza il Foreign Memory Access API?
+36. Cos'è un Structured Concurrency?
+37. Come funziona il Vector API?
+38. Qual è la differenza tra VarHandle e Atomic classes?
+39. Come si utilizza Spring Cloud Gateway con Reactive Streams?
+40. Cos'è un Cloud Native Buildpack?
