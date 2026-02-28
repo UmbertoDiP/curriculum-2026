@@ -267,70 +267,12 @@
         <div class="meta-data">Modalità: Remoto</div>
         <div class="meta-data">Periodo: Set 2024 – Feb 2026</div>
         <ul>
-            <li><strong>Responsabile Progetti Java Enterprise</strong>: Gestione completa progetti Java per applicazioni bancarie con firma digitale e certificati X.509/eIDAS:
-                <ul style="margin-top: 5px; margin-bottom: 5px;">
-                    <li>bdife-web (Banking Digital Identity Frontend)</li>
-                    <li>pki-cruscotto-web (PKI Dashboard)</li>
-                    <li>portaledeleghe-web e portaledeleghemail-web (Delegation Portals)</li>
-                    <li>pkititolari-dss-web (NexU Digital Signature Service)</li>
-                    <li>esecurityweb-core e secretstoreutils-core (Core Libraries)</li>
-                    <li>portaledeleghe-conf e portaledeleghemail-conf (Configuration Modules)</li>
-                </ul>
-            </li>
-            <li><strong>Team Leader ArubaSign 25 Desktop</strong>: Responsabile versione custom ArubaSign 25 per Banca d'Italia
-                <ul style="margin-top: 5px; margin-bottom: 5px;">
-                    <li>Build e release multi-ambiente con GitLab CI/CD e Jenkins</li>
-                    <li>Integrazione librerie native C++ PKCS#11 per smartcard e token hardware</li>
-                    <li>Startup automatizzato, build e deployment tramite pipeline Jenkins</li>
-                    <li>Tool di integrazione OfficeTool e verify_otp per firma documenti Office</li>
-                    <li>Installer con middleware Bit4Id per supporto Yubikey</li>
-                    <li>Refactoring completo da LDAP a LDAPS come richiesto dal cliente</li>
-                </ul>
-            </li>
-            <li><strong>Progetto ArubaKey</strong>: Modernizzazione sistema auto-update
-                <ul style="margin-top: 5px; margin-bottom: 5px;">
-                    <li>Sviluppo ArubaKeyLauncher con gestione aggiornamenti avanzata</li>
-                    <li>Compatibilità multipiattaforma (Windows, macOS, Linux)</li>
-                    <li>Sostituzione sistema legacy con architettura moderna e resiliente</li>
-                </ul>
-            </li>
-            <li><strong>Packaging &amp; CI/CD</strong>:
-                <ul style="margin-top: 5px; margin-bottom: 5px;">
-                    <li>Creazione installer con WiX Toolset per deployment enterprise</li>
-                    <li>Gestione pipeline Jenkins per build e deployment multi-ambiente</li>
-                    <li>Controllo e gestione release con verifica qualità</li>
-                    <li>Verifiche e test completati senza problemi, zero ritorni da QA</li>
-                </ul>
-            </li>
-            <li><strong>Infrastruttura e Gestione Progetti</strong>:
-                <ul style="margin-top: 5px; margin-bottom: 5px;">
-                    <li>Oltre 16 progetti Maven con JDK differenziati (Java 7-17)</li>
-                    <li>Gestione repository Nexus per artifacts e dipendenze</li>
-                    <li>Analisi bug critici cross-repository con Git analysis avanzata</li>
-                    <li>Aggiornamento librerie CAPI, pdfbox, jQuery per sicurezza e performance</li>
-                    <li>Migrazione completa da Dimensions CM a Git per version control</li>
-                </ul>
-            </li>
-            <li><strong>Controlli e Quality Assurance</strong>:
-                <ul style="margin-top: 5px; margin-bottom: 5px;">
-                    <li>Verifiche complete su ArubaSign, BdIFE, DSS, NexU, ARSProvisioner</li>
-                    <li>Controllo versioni software, rollback, gestione sessioni</li>
-                    <li>Verifica warning certificati e catene di validazione</li>
-                    <li>Controlli firma digitale PAdES/XAdES conformi a normativa eIDAS</li>
-                    <li>Verifica endpoint LDAPS e client LDAP per autenticazione sicura</li>
-                    <li>Analisi vulnerabilità (CVE, jsessionid exposure)</li>
-                    <li>Ripristino job IPA per compatibilità MySQL (Aruba) e Oracle (Banca d'Italia)</li>
-                    <li>Verifica revoca certificati verso OCSP/LDAP</li>
-                </ul>
-            </li>
-            <li><strong>Documentazione e Processi</strong>:
-                <ul style="margin-top: 5px; margin-bottom: 5px;">
-                    <li>Riorganizzazione documentazione esistente e produzione nuova documentazione tecnica</li>
-                    <li>Revisione pipeline Git Aruba e definizione linee guida DevOps</li>
-                    <li>Check release e supporto tecnico diretto al cliente Banca d'Italia</li>
-                    <li>Tutte le attività testate e verificate prima del commit in produzione, zero ritorni da QA</li>
-                </ul>
-            </li>
+            <li><strong>Responsabile Progetti Java Enterprise</strong>: Gestione 10 progetti applicazioni bancarie con firma digitale X.509/eIDAS: bdife-web, pki-cruscotto-web, portaledeleghe suite (web/mail), pkititolari-dss-web, core libraries (esecurityweb, secretstoreutils) e moduli configurazione.</li>
+            <li><strong>Team Leader ArubaSign 25 Desktop</strong>: Versione custom per Banca d'Italia. Build multi-ambiente (GitLab CI/CD, Jenkins), integrazione C++ PKCS#11 per smartcard, installer WiX con middleware Bit4Id per Yubikey, refactoring LDAP→LDAPS, tool OfficeTool e verify_otp per firma Office.</li>
+            <li><strong>Modernizzazione ArubaKey</strong>: Sistema auto-update multipiattaforma (Windows, macOS, Linux) con ArubaKeyLauncher, sostituzione architettura legacy.</li>
+            <li><strong>Infrastruttura &amp; CI/CD</strong>: Gestione 16+ progetti Maven multi-JDK (Java 7-17), repository Nexus, pipeline Jenkins, installer WiX, migrazione Dimensions CM→Git, analisi bug cross-repository, aggiornamenti librerie (CAPI, pdfbox, jQuery).</li>
+            <li><strong>Quality Assurance</strong>: Verifiche complete ArubaSign, BdIFE, DSS, NexU, ARSProvisioner. Controlli firma PAdES/XAdES eIDAS, certificati X.509, LDAPS/OCSP/CRL, vulnerabilità CVE, compatibilità MySQL/Oracle. Zero ritorni QA.</li>
+            <li><strong>Documentazione &amp; Processi</strong>: Riorganizzazione documentazione tecnica, revisione pipeline Git Aruba, linee guida DevOps, supporto cliente Banca d'Italia.</li>
         </ul>
         <div class="tech-tags">
             <span class="tag">Java 7-17</span><span class="tag">Spring Boot</span><span class="tag">Maven</span><span class="tag">JPA</span><span class="tag">Angular</span><span class="tag">TypeScript</span><span class="tag">Electron</span><span class="tag">PKI</span><span class="tag">X.509</span><span class="tag">eIDAS TSL</span><span class="tag">PAdES/CAdES/XAdES</span><span class="tag">OCSP/CRL</span><span class="tag">LDAP/LDAPS</span><span class="tag">PKCS#11</span><span class="tag">GitLab CI/CD</span><span class="tag">Jenkins</span><span class="tag">WiX Toolset</span><span class="tag">Git</span><span class="tag">Jira</span><span class="tag">IntelliJ IDEA</span><span class="tag">Nexus</span><span class="tag">MySQL</span><span class="tag">Oracle</span><span class="tag">SQLite</span><span class="tag">PostgreSQL</span>
